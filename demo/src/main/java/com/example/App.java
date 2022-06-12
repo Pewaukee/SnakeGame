@@ -827,7 +827,8 @@ public class App extends Application {
     /*
      * these two methods, keyTyped() and keyReleased()
      * are necessary to override in order to implement
-     * java.awt.event.KeyListener to the class App
+     * java.awt.event.KeyListener to the class App, but are not needed
+     * when using javafx
      */
     
     /*@Override
